@@ -55,6 +55,8 @@ This project demonstrates data preparation, transformation, and modeling for **T
 
 ✅ **Data Model with Optimized Relationships**  
 ![image](https://github.com/user-attachments/assets/c6b00cb8-a21e-452a-942e-770272af9b89)
+![image](https://github.com/user-attachments/assets/e980ea68-a6fe-45af-a4cd-aa9243d94c4a)
+
 
 
 
