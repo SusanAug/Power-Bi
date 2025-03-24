@@ -58,6 +58,24 @@ This project demonstrates data preparation, transformation, and modeling for **T
 ![image](https://github.com/user-attachments/assets/e980ea68-a6fe-45af-a4cd-aa9243d94c4a)
 
 
+*****************************************************************************************************************************************************************
+# Power BI Analysis - AdventureWorks Dataset
+
+This is a detailed report of my data analysis process using Power BI.
+
+## Step 1: Data Inspection
+After loading the AdventureWorks dataset into Power BI, I inspected the data quality. Here is the screenshot of the Power Query Editor.
+
+![image](https://github.com/user-attachments/assets/22a1c2f7-53ee-433f-92dc-eb7a6408c06d)
+
+
+## Step 2: Data Profiling
+I performed data profiling on the `StockLevel` column. Below is the column profile:
+![image](https://github.com/user-attachments/assets/6c991d7c-a69e-4c50-b62e-74fa0c43ccc6)
+
+
+
+
 
 
 📢 **Connect with Me**  
