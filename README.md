@@ -74,8 +74,42 @@ I performed data profiling on the `StockLevel` column. Below is the column profi
 ![image](https://github.com/user-attachments/assets/6c991d7c-a69e-4c50-b62e-74fa0c43ccc6)
 
 
+***********************************_______________________________________________________________________________*************************************************************************
 
 
+# Power BI - Common Date Table Creation  
+This guide provides step-by-step instructions on creating a **common date table** in Power BI using **DAX**. A date table helps in performing **time intelligence calculations**, filtering, grouping, and improving the efficiency of a data model.
+
+## 📌 Why Use a Date Table?  
+- Enables **year-to-date (YTD)**, **month-to-date (MTD)**, and other time-based calculations.  
+- Helps define **custom time periods** (e.g., Fiscal Year).  
+- Improves performance and relationships in Power BI models.
+
+## 🛠 Prerequisites  
+Before creating a date table, ensure the following:  
+✔ A date column with **Date/Time data type**.  
+✔ No **blank values** in the date column.  
+✔ Each date appears **only once** (unique values).  
+✔ No **missing dates** in the date range.
+
+---
+
+## 📌 Creating a Date Table in Power BI  
+
+### **Step 1: Create a Date Table using DAX**
+Open Power BI and enter the following DAX formula to create a date table:  
+
+
+
+```DAX
+Date = CALENDAR ( DATE(2017, 1, 1), DATE(2021, 12, 31) )
+![image](https://github.com/user-attachments/assets/8b8ca203-af62-4d8e-939a-224deaa0bda3)
+
+![image](https://github.com/user-attachments/assets/46a19d62-d17b-4cfc-9986-b3bbd5416235)
+
+![image](https://github.com/user-attachments/assets/0ce6bccc-42e1-4fcf-a9b8-1f762e588c88)
+
+![image](https://github.com/user-attachments/assets/1067576c-628c-4247-9d54-c4a487eb0450)
 
 
 📢 **Connect with Me**  
